@@ -6141,6 +6141,8 @@ private: System::Void radioButton302_CheckedChanged(System::Object^  sender, Sys
 private: System::Void radioButton303_CheckedChanged(System::Object^  sender, System::EventArgs^  e) {
 	StatChosed = 303;
 }
+#pragma comment(linker,"/manifestdependency:\"type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' processorArchitecture='*' publicKeyToken='6595b64144ccf1df' language='*'\"")
+#pragma endregion
 private: System::Void radioButton304_CheckedChanged(System::Object^  sender, System::EventArgs^  e) {
 	StatChosed = 304;
 }
